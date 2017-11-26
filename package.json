@@ -1,0 +1,14 @@
+{
+  "name": "zinger",
+  "version": "0.0.0",
+  "description": "🙌",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "author": "Sivan Mehta",
+  "license": "WTFPL",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}
