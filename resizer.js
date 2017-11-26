@@ -1,5 +1,8 @@
 function updateDims(event) {
-  zinger.innerHTML = `${window.innerWidth} x ${window.innerHeight}`
+  const bigger = Math.max(window.innerWidth, window.innerHeight)
+  zinger.style = `
+    width: ${bigger}; height: ${bigger};
+  `
 }
 
 window.addEventListener('resize', updateDims)
